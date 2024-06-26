@@ -1,0 +1,103 @@
+.a
+{
+    margin: 1%;
+
+    
+}
+a
+{
+width:100px;
+}
+*
+{
+margin:0px;
+padding:0px;
+}
+
+input
+{
+border: 5px solid rgb(44, 44, 97);
+background-color:#ededef;
+height: 23px;
+}
+input:hover
+{
+border:px solid #383959;
+}
+
+input[type=submit]
+{
+    background-color: #0d1130;
+    color: white;
+    width: 65px;
+    height: 26px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#submit:hover
+{
+    cursor: pointer;
+    color: bisque;
+}
+body{
+    background-image:url(background/covid19-img.png);
+       background-position: center;
+       background-attachment: fixed;
+       background-size: cover;
+        background-repeat: no-repeat;
+  color: var(--text_dark);
+  padding: 70px;
+}
+#add
+{
+    padding: 10px;
+    margin: auto;
+  width: 40%;
+  color: white;
+  background-color: #393a59;
+  margin-bottom: 20px;
+  border: 1px solid #2e89f2;
+}
+@media screen and (max-width: 400px) {
+    .a
+{
+    margin: 1%;
+    
+}
+  }
+input {font-weight: 500;}
+
+.covid-background{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+     background-repeat: no-repeat;
+
+}
+@media (min-aspect-ratio:16/9){
+    .covid-background{
+        width: 100%;
+        height: auto;
+        
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .covid-background{
+        width: auto;
+        height: 100%;
+       
+    }
+}
+
+  
+  
